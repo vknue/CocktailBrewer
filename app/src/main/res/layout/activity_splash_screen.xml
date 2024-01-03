@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splashscreen_background"
+        android:scaleType="centerCrop"
+        android:id="@+id/ivSplashBackground"
+        android:contentDescription="@string/white_rum_being_poured_into_a_glass"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/semi_transparent_pink" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_50dp"
+        tools:context=".SplashScreenActivity">
+
+        <ImageView
+            android:id="@+id/ivShaker"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_250dp"
+            android:src="@drawable/cocktail_shaker"
+            android:contentDescription="@string/cocktail_shaker"
+            android:layout_marginVertical="@dimen/_100dp"/>
+        <TextView
+            android:id="@+id/tvPleaseWait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/please_wait"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

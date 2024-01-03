@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ADMDProject</string>
+    <string name="white_rum_being_poured_into_a_glass">White rum being poured into a glass</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="cocktail_shaker">Cocktail shaker</string>
+    <string name="chosen_drink_for_you">Chosen drink for you</string>
+    <string name="name">Name:</string>
+    <string name="check_it_out">Check it out</string>
+    <string name="change_it">Change it</string>
+    <string name="cocktail_name">Cocktail Name</string>
+    <string name="category">Category:</string>
+    <string name="iba">IBA:</string>
+    <string name="glass">Glass:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="back_to_the_home_page">Back to the home Page</string>
+</resources>
